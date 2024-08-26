@@ -1,5 +1,10 @@
 #include <iostream>
 
+// Escriba un programa que encuentre el valor aproximado del número de euler en base
+// a la siguiente suma infinita:
+// e =  1/0! + 1/1! + 1/2! + 1/3! + ...
+// El usuario debe ingresar el número de elementos usados en la aproximación
+
 int factorial(int n) // hacemos una funcion que calcule la factorial de un numero ingresado
 {
     int resultado = 1;

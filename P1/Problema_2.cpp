@@ -1,6 +1,14 @@
 #include <iostream>
 
-int main() {
+// Problema 2. Se necesita un programa que permita determinar la mínima combinación de billetes
+// y monedas para una cantidad de dinero determinada. Los billetes en circulación son de $50.000,
+// $20.000, $10.000, $5.000, $2.000 y $1.000, y las monedas son de $500, $200, $100 y $50.
+// Hacer un programa que entregue el número de billetes y monedas de cada denominación
+// para completar la cantidad deseada. Si por medio de los billetes y monedas disponibles
+// no se puede lograr la cantidad deseada, el sistema deberá decir lo que resta para lograrla 
+
+int main()
+{ 
     // Definir las denominaciones de billetes y monedas
     const int BILLETE_50000 = 50000;
     const int BILLETE_20000 = 20000;
